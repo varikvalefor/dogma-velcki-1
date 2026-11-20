@@ -4,6 +4,12 @@ Prenu = {!!}
 \end{code}
 
 \begin{code}
-Dogma : ∀ {a} → Set a → Prenu → Set a
-Dogma = {!!}
+Co'eJaKrici : ∀ {a} → Prenu → Set a → Set a
+Co'eJaKrici = {!!}
+\end{code}
+
+\begin{code}
+record Dogma {a} (A : Set a) (p : Prenu) : Set a where
+  field
+    cjk : Co'eJaKrici p A
 \end{code}
