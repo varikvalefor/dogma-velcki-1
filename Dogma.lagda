@@ -43,6 +43,8 @@
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
+{-# OPTIONS --safe #-}
+
 open import Function
   using (
     _$_
