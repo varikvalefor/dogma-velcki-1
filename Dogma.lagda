@@ -1,4 +1,8 @@
 \begin{code}
+open import Function
+  using (
+    _$_
+  )
 open import Relation.Nullary
   using (
     ¬_
@@ -29,5 +33,5 @@ Cumki = {!!}
 record Dogma {a} (A : Set a) (p : Prenu) : Set a where
   field
     cjk : Co'eJaKrici p A
-    na-vilco : ¬_ (Vilco p (λ p' → Co'eJaKrici p' (Cumki (¬ A))))
+    na-vilco : ¬_ $ Vilco p $ λ p' → Co'eJaKrici p' $ Cumki (¬_ A)
 \end{code}
