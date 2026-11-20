@@ -107,7 +107,7 @@ Cumki = {!!}
 
 \section{le se ctaipe co su'u me'oi .dogma.\ / The Type regarding Being Dogmatic}
 \paragraph{la .lojban.}
-ni'o le velcki jai ctaipe le su'u ro da poi ke'a prenu zo'u ro de poi ke'a se ctaipe zo'u ga jo de me'oi .dogma.\ da gi krici lo du'u lo su'o co'e cu ctaipe de kei je cu to'e vilco lo ka ce'u co'e ja jinvi lo du'u cumki fa lo su'u lo no co'e cu ctaipe de\sds  .i ku'i la .varik.\ na prane le ka ce'u birti le du'u le velcki cu mapti le smuni be fi vo'a
+ni'o le velcki cu jai ctaipe le su'u ro da poi ke'a prenu zo'u ro de poi ke'a se ctaipe zo'u ga jo de me'oi .dogma.\ da gi krici lo du'u lo su'o co'e cu ctaipe de kei je cu to'e vilco lo ka ce'u co'e ja jinvi lo du'u cumki fa lo su'u lo no co'e cu ctaipe de\sds  .i ku'i la .varik.\ na prane le ka ce'u birti le du'u le velcki cu mapti le smuni be fi vo'a
 
 \paragraph{English}
 The combination of the definition \emph{and whatnot} logically necessitates that for all prenu $p$, for all types $C$, $C$ is a dogma of $p$ iff $p$ believes/opines/whatever that (some thing is a term of $C$) and is unwilling for believing/opining/whatever that a thing which is possible is that $C$ is equivalent to the empty type.  But VARIK is not perfectly certain about that (the definition is appropriate for the idea which is ``held'' by VARIK).
