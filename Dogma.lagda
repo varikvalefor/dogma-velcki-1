@@ -38,6 +38,11 @@ Co'eJaKrici = {!!}
 \end{code}
 
 \section{le se ctaipe co su'u vilco / The Type regarding Being Willing}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'e zoi zoi.\ \F{Vilco} \B p \B k\ .zoi.\ gi lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu vilco lo ka me la'e zo'oi .\B k.\ ce'u
+
+\paragraph{English}
+A term of \F{Vilco} \B p \B A exists iff \B p is willing for exhibiting the property of \B k.  A term of \F{Vilco} \B p \B A exists iff \B p is willing for that (some term of \B A \B p exists).
 
 \begin{code}
 Vilco : ∀ {a} → Prenu → (Prenu → Set a) → Set a
