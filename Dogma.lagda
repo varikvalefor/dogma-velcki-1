@@ -1,3 +1,5 @@
+\section{le vrici / The Miscellaneous}
+
 \begin{code}
 open import Function
   using (
@@ -9,25 +11,35 @@ open import Relation.Nullary
   )
 \end{code}
 
+\section{le prenu se ctaipe / The Prenu Type}
+
 \begin{code}
 Prenu : Set
 Prenu = {!!}
 \end{code}
+
+\section{le se ctaipe Coke su'u co'e ja krici / The Type regarding Believing/Whatever}
 
 \begin{code}
 Co'eJaKrici : ∀ {a} → Prenu → Set a → Set a
 Co'eJaKrici = {!!}
 \end{code}
 
+\section{le se ctaipe co su'u vilco / The Type regarding Being Willing}
+
 \begin{code}
 Vilco : ∀ {a} → Prenu → (Prenu → Set a) → Set a
 Vilco = {!!}
 \end{code}
 
+\section{le se ctaipe co su'u cumki / The Type regarding Being Possible}
+
 \begin{code}
 Cumki : ∀ {a} → Set a → Set a
 Cumki = {!!}
 \end{code}
+
+\section{le se ctaipe co su'u me'oi .dogma.\ / The Type regarding Being Dogmatic}
 
 \begin{code}
 record Dogma {a} (A : Set a) (p : Prenu) : Set a where
