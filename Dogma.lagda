@@ -50,6 +50,11 @@ Vilco = {!!}
 \end{code}
 
 \section{le se ctaipe co su'u cumki / The Type regarding Being Possible}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'e zoi zoi.\ \F{Cumki} \B A .zoi.\ gi cumki fa lo nu ctaipe la'e zo'oi .\B A.
+
+\paragraph{English}
+A term of \F{Cumki} \B A exists iff a thing which is possible is that some thing is a term of \B A.
 
 \begin{code}
 Cumki : ∀ {a} → Set a → Set a
