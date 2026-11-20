@@ -1,3 +1,45 @@
+\documentclass{article}
+
+\usepackage{ar}
+\usepackage[bw]{agda}
+\usepackage{ifsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{parskip}
+\usepackage{mathabx}
+\usepackage{unicode-math}
+\usepackage{newunicodechar}
+
+\newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
+\newunicodechar{⊔}{\ensuremath{\mathnormal\sqcup}}
+\newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
+\newunicodechar{♯}{\ensuremath{\mathnormal\sharp}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{₀}{\ensuremath{\mathnormal{{}_0}}}
+\newunicodechar{₁}{\ensuremath{\mathnormal{{}_1}}}
+
+\newcommand\Sym\AgdaSymbol
+\newcommand\D\AgdaDatatype
+\newcommand\F\AgdaFunction
+\newcommand\B\AgdaBound
+\newcommand\OpF[1]{\AgdaOperator{\F{#1}}}
+
+\newcommand\sds{\spacefactor\sfcode`.\ \space}
+
+\title{le cipra velcki be le smuni be zo'oi .DOGMA.\ bei la .varik.\ / A Test Definition of the Meaning (for VARIK) of ``DOGMA''}
+\author{la .varik.\ .VALefor.}
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	\paragraph{la .lojban.}
+	ni'o la .varik.\ cu tarmi ciksi le smuni be zo'oi .DOGMA.\ bei vo'a bau la'oi .Agda.\ joi la .lojban.\ldots fo le na te birti be vo'a\ sds  .i le te tcidu cu jai cipra fi le smuni\sds  .i la .varik. na co'e ja djica lo nu panra vo'a zo'e ja le smuni be lu re'enje ja cinmo se zukte li'u fa lo prenu jenai ke du be vo'a
+
+	\paragraph{English}
+	VARIK formally defines (with English and Agda) the meaning (for VARIK) of ``DOGMA''.  The document is a test for the meaning.  VARIK does not desire/whatever that prenu which are not VARIK resemble (with regard to the meaning (of ``art'') or whatever) VARIK.
+\end{abstract}
+
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
@@ -74,3 +116,4 @@ record Dogma {a} (A : Set a) (p : Prenu) : Set a where
     cjk : Co'eJaKrici p A
     na-vilco : ¬_ $ Vilco p $ λ p' → Co'eJaKrici p' $ Cumki (¬ A)
 \end{code}
+\end{document}
