@@ -14,7 +14,6 @@
 \newunicodechar{⊔}{\ensuremath{\mathnormal\sqcup}}
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 \newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
-\newunicodechar{₀}{\ensuremath{\mathnormal{{}_0}}}
 \newunicodechar{₁}{\ensuremath{\mathnormal{{}_1}}}
 
 \newcommand\Sym\AgdaSymbol
