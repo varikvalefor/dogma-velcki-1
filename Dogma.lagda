@@ -71,10 +71,10 @@ Prenu = {!!}
 
 \section{le se ctaipe Coke su'u co'e ja krici / The Type regarding Believing/Whatever}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'e zoi zoi.\ \F{Co'eJaKrici} \B p \B A\ .zoi.\ gi lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu krici le du'u lo su'o co'e cu ctaipe la'e zo'oi .\B A.
+ni'o ga jo ctaipe la'e zoi zoi.\ \F{Co'eJaKrici} \B p \B A\ .zoi.\ gi lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu krici le du'u lo su'o co'e cu ctaipe la'e zo'oi .\B A.\sds  .i na vajni fa lo du'u xu kau tolna'e
 
 \paragraph{English}
-A term of \F{Co'eJaKrici} \B p \B A exists iff \B p believes that some thing is a term of \B A.
+A term of \F{Co'eJaKrici} \B p \B A exists iff \B p believes that some thing is a term of \B A.  Whether evidence exists is not important/relevant.
 
 \begin{code}
 Co'eJaKrici : ∀ {a} → Prenu → Set a → Set a
