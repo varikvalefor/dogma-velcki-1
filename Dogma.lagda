@@ -80,7 +80,7 @@ Co'eJaKrici = {!!}
 
 \section{le se ctaipe co su'u vilco / The Type regarding Being Willing}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'e zoi zoi.\ \F{Vilco} \B p \B k\ .zoi.\ gi lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu vilco lo ka me la'e zo'oi .\B k.\ ce'u
+ni'o ga jo ctaipe la'e zoi zoi.\ \F{Vilco} \B p \B k\ .zoi.\ gi lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu vilco lo ka me la'e zo'oi .\B k.\ ce'u\ldots kei no'u lo ka lo su'o co'e cu ctaipe lo me'oi .\F{Vilco}.\ be la'e zo'oi .\B p.\ lu'u no'u lo sinxa be ce'u be'o bei la'e zo'oi .\B k.
 
 \paragraph{English}
 A term of \F{Vilco} \B p \B A exists iff \B p is willing for exhibiting the property of \B k.  A term of \F{Vilco} \B p \B A exists iff \B p is willing for that (some term of \B A \B p exists).
