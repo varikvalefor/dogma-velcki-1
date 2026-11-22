@@ -92,14 +92,14 @@ Vilco = {!!}
 
 \section{le se ctaipe co su'u cumki / The Type regarding Being Possible}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'e zoi zoi.\ \F{Cumki} \B A .zoi.\ gi cumki fa lo nu ctaipe la'e zo'oi .\B A.
+ni'o ga jo ctaipe la'e zoi zoi.\ \F{Cumki-Krici} \B p \B A .zoi.\ gi cumki lo prenu je ke se sinxa be la'e zo'oi .\B p.\ cu co'e ja jinvi ja krici lo du'u cumki fa lo nu ctaipe la'e zo'oi .\B A.\sds  .i na vajni fa lo du'u xu kau tolna'e
 
 \paragraph{English}
-A term of \F{Cumki} \B A exists iff a thing which is possible is that some thing is a term of \B A.
+A term of \F{Cumki-Jinvi} \B p \B A exists iff \B p believes/opines/whatever that a thing which is possible is that some thing is a term of \B A.  Whether evidence exists is irrelevant.
 
 \begin{code}
-Cumki : ∀ {a} → Set a → Set a
-Cumki = {!!}
+Cumki-Krici : ∀ {a} → Prenu → Set a → Set a
+Cumki-Krici = {!!}
 \end{code}
 
 \section{le se ctaipe co su'u me'oi .dogma.\ / The Type regarding Being Dogmatic}
@@ -113,6 +113,6 @@ The combination of the definition \emph{and whatnot} logically necessitates that
 record Dogma {a} (A : Set a) (p : Prenu) : Set a where
   field
     cjk : Co'eJaKrici p A
-    na-vilco : ¬_ $ Vilco p $ λ p' → Co'eJaKrici p' $ Cumki (¬ A)
+    na-vilco : ¬_ $ Vilco p $ λ p' → Cumki-Krici p' (¬ A)
 \end{code}
 \end{document}
